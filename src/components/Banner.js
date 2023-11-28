@@ -7,6 +7,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { HashLink } from 'react-router-hash-link';
 
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -65,8 +66,6 @@ export const Banner = () => {
                     I'm a lifelong learner, constantly adding new skills to my toolkit, from deep learning to big data technologies
         
                   </p>
-                  
-          
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                   
                
